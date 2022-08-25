@@ -24,7 +24,7 @@ public class SetupPlayers implements CommandLineRunner {
         List<String> players =    new ArrayList<String>(Arrays.asList(
                 "Lionel Messi",
                 "Cristiano Ronaldo",
-                "Xavi	Midfielder",
+                "Xavi Hernandez",
                 "Andres Iniesta",
                 "Zlatan Ibrahimovic",
                 "Radamel Falcao",
