@@ -5,7 +5,7 @@ name: Build and deploy JAR app to Azure Web App - joescars
 
 on:
   push:
-    ignore-branches:
+    branches-ignore:
       - main
   workflow_dispatch:
 
