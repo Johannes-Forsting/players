@@ -21,4 +21,9 @@ public class PlayerController {
     Iterable<Player> getPlayers() {
         return  playerRepository.findAll();
     }
+
+    @GetMapping("f1")
+    String getFeature(){
+        return "feature 1";
+    }
 }
